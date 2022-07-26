@@ -1,0 +1,35 @@
+.benefits-content {
+  margin: 0;
+}
+
+.benefits-content__item {
+  display: none;
+
+  &--active {
+    max-width: 640px;
+    min-height: 154px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 54px;
+    padding-left: 140px;
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  &--comfort {
+    background: url("img/comfort.svg") left bottom no-repeat;
+  }
+
+  &--speed {
+    background: url("img/speed.svg") left bottom no-repeat; 
+  }
+
+  &--quality {
+    background: url("img/star.svg") left bottom no-repeat;
+  }
+
+  &--reliable {
+    background: url("img/security.svg") left bottom no-repeat;
+  }
+}

@@ -27,15 +27,16 @@
 
 .header__nav {
   @include tablet {
+    display: none;
     position: absolute;
     width: 100%;
     min-height: 100px;
     left: 0;
-    top: 0;
+    top: 60px;
     padding-bottom: 16px;
     background-color: $secondary-color;
     transition: 0.5s ease-in-out;
-    z-index: -1;
+    // z-index: -1;
   }
 
   @include mobile {
@@ -44,6 +45,7 @@
 }
 
 .header__nav--open {
-  transform: translateY(100%);
+  // transform: translateY(100%);
+  display: block;
 
 }

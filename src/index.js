@@ -1,4 +1,5 @@
 import './index.html';
 import './index.scss';
-import './modules/menu';
-import './modules/modal';
+import './modules/menu.js';
+import './modules/modal.js';
+import './modules/tabs-about.js';

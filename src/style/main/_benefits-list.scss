@@ -1,0 +1,29 @@
+.benefits-list {
+  margin-top: 4px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.benefits-list__name {
+  display: block;
+  width: 180px;
+  padding: 10px;
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: $secondary-color;
+  text-align: center;
+  background-color: #68B7FF;
+  border-radius: 20px;
+
+  &:hover {
+    background-color: $accent-dark;
+  }
+
+  &--active {
+    background-color: $accent-dark;
+  }
+}
